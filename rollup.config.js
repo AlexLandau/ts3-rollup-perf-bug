@@ -36,7 +36,6 @@ function standardConfigFor({ exportType }) {
 function standardConfigs() {
   return [
     standardConfigFor({ exportType: "main" }), 
-    standardConfigFor({ exportType: "module" }), 
     standardConfigFor({ exportType: "esnext" })
   ];
 }
