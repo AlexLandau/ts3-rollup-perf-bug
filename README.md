@@ -1,6 +1,8 @@
 # ts3-rollup-perf-bug
 Public repro of a perf bug with TypeScript 3.0 and Rollup
 
+Note: This bug affected versions 3.0-3.1.x of TypeScript and was fixed in 3.2. See https://github.com/Microsoft/TypeScript/issues/27207 for the ticket and https://github.com/Microsoft/TypeScript/pull/27483 for the fix.
+
 To reproduce:
 1) Install node and yarn if necessary.
 2) Run `yarn`
